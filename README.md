@@ -1,4 +1,4 @@
 # Indoor-Crocodile-backend
 Indoor Crocodile app's backend
 
-Implemented using ASP.NET Core Api framework in C# language 
+Implemented using Django Rest Framework in Python language 
