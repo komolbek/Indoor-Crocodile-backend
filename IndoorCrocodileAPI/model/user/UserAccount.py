@@ -1,6 +1,7 @@
 from typing import final
-from model.user.User import User
 
+from model.user.User import User
+from request_model import UserSignInRequest
 
 @final
 class UserAccount(object):
@@ -8,7 +9,7 @@ class UserAccount(object):
         pass
 
     # Public
-    def sing_in(user: User):
+    def sing_in(user: UserSignInRequest):
         pass
 
     def sing_up(user: User):
